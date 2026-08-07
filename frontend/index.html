@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <div class="chat-card">
+
+        <div class="chat-header">
+            <div>
+                <h2>🤖 AI Assistant</h2>
+                <p>Gemini + Memory + Tool Calling + RAG</p>
+            </div>
+
+            <button id="clearBtn">
+                Xóa hội thoại
+            </button>
+        </div>
+
+
+        <div class="chat-body" id="chatBody">
+
+            <div class="message assistant">
+                <div class="avatar">🤖</div>
+
+                <div class="message-content">
+                    Xin chào! Tôi là trợ lý AI. Bạn muốn hỏi gì?
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="chat-footer">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Nhập câu hỏi..."
+                autocomplete="off"
+            >
+
+            <button id="sendBtn">
+                Gửi
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
